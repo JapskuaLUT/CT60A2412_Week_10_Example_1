@@ -21,6 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Menu Detail Activity - THIS WAS MISSING -->
+        <activity
+            android:name=".MenuDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data for Back button in action bar -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

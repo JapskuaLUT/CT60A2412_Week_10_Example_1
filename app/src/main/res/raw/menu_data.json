@@ -67,6 +67,14 @@
       "imageFileName": "stir_fry"
     },
     {
+      "id": 204,
+      "name": "Onion rings",
+      "description": "Your regular onion rings",
+      "price": "",
+      "categoryId": 2,
+      "imageFileName": "onion_rings"
+    },
+    {
       "id": 301,
       "name": "Chocolate Lava Cake",
       "description": "Warm chocolate cake with molten center",
