@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Week 10 Example 1</string>
+    <!-- Main Screen -->
+    <string name="restaurant_name_placeholder">Restaurant Name</string>
+    <string name="restaurant_description_placeholder">Restaurant Description</string>
+
+    <!-- Menu Items -->
+    <string name="category_name_placeholder">Category</string>
+    <string name="item_name_placeholder">Item Name</string>
+    <string name="item_description_placeholder">Description</string>
+    <string name="price_format">$%.2f</string>
+
+    <!-- Detail Screen -->
+    <string name="description_label">Description</string>
+    <string name="back_button">Back to Menu</string>
+    <string name="unknown_category">Unknown Category</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading_menu">Failed to load menu data. Please try again later.</string>
+    <string name="error_item_details">Failed to display item details. Please try again.</string>
+    <string name="error_file_not_found">Required file was not found. Please reinstall the app.</string>
+    <string name="error_json_invalid">Error reading menu data. Data format is invalid.</string>
+    <string name="error_io">Error accessing menu data. Please try again.</string>
+    <string name="error_resource_not_found">Required resource was not found. Please reinstall the app.</string>
+    <string name="error_null_pointer">An unexpected error occurred. Please try again.</string>
+    <string name="error_index_bounds">Invalid data index. Please report this issue.</string>
+    <string name="error_invalid_argument">Invalid operation. Please report this issue.</string>
+    <string name="error_generic">Something went wrong. Please try again later.</string>
+</resources>

@@ -1,0 +1,94 @@
+{
+  "restaurant": {
+    "name": "Delicious Bites",
+    "description": "A cozy restaurant with delicious food options"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Appetizers"
+    },
+    {
+      "id": 2,
+      "name": "Main Courses"
+    },
+    {
+      "id": 3,
+      "name": "Desserts"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 101,
+      "name": "Crispy Calamari",
+      "description": "Lightly battered squid rings served with tangy aioli",
+      "price": 8.99,
+      "categoryId": 1,
+      "imageFileName": "calamari"
+    },
+    {
+      "id": 102,
+      "name": "Bruschetta",
+      "description": "Grilled bread topped with tomatoes, garlic, and basil",
+      "price": 6.99,
+      "categoryId": 1,
+      "imageFileName": "bruschetta"
+    },
+    {
+      "id": 103,
+      "name": "Spinach Artichoke Dip",
+      "description": "Creamy dip with spinach, artichokes, and melted cheese",
+      "price": 7.99,
+      "categoryId": 1,
+      "imageFileName": "spinach_dip"
+    },
+    {
+      "id": 201,
+      "name": "Grilled Salmon",
+      "description": "Fresh salmon fillet with lemon butter sauce",
+      "price": 18.99,
+      "categoryId": 2,
+      "imageFileName": "salmon"
+    },
+    {
+      "id": 202,
+      "name": "Chicken Parmesan",
+      "description": "Breaded chicken topped with marinara and mozzarella",
+      "price": 16.99,
+      "categoryId": 2,
+      "imageFileName": "chicken_parm"
+    },
+    {
+      "id": 203,
+      "name": "Vegetable Stir Fry",
+      "description": "Mixed vegetables in savory sauce with rice",
+      "price": 14.99,
+      "categoryId": 2,
+      "imageFileName": "stir_fry"
+    },
+    {
+      "id": 301,
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with molten center",
+      "price": 7.99,
+      "categoryId": 3,
+      "imageFileName": "lava_cake"
+    },
+    {
+      "id": 302,
+      "name": "Cheesecake",
+      "description": "Classic New York style cheesecake",
+      "price": 6.99,
+      "categoryId": 3,
+      "imageFileName": "cheesecake"
+    },
+    {
+      "id": 303,
+      "name": "Tiramisu",
+      "description": "Italian dessert with coffee-soaked ladyfingers",
+      "price": 8.49,
+      "categoryId": 3,
+      "imageFileName": "tiramisu"
+    }
+  ]
+}
