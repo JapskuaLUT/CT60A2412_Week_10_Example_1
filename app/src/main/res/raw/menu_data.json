@@ -69,7 +69,7 @@
     {
       "id": 204,
       "name": "Onion rings",
-      "description": "Your regular onion rings",
+      "description": "",
       "price": "",
       "categoryId": 2,
       "imageFileName": "onion_rings"

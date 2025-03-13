@@ -73,6 +73,9 @@ public class MenuItem implements Serializable {
 
     // Format price as string with currency symbol
     public String getFormattedPrice() {
+        if (price < 0) {
+            return "N/A"; // Price not available
+        }
         return String.format("$%.2f", price);
     }
 }

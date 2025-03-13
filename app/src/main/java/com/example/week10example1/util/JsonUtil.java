@@ -117,7 +117,7 @@ public class JsonUtil {
                         throw new JSONException("Menu item name is required");
                     }
 
-                    if (itemJson.has("description")) {
+                    if (itemJson.has("description") && !itemJson.getString("description").isEmpty()) {
                         menuItem.setDescription(itemJson.getString("description"));
                     } else {
                         menuItem.setDescription("No description available");
@@ -125,7 +125,12 @@ public class JsonUtil {
                     }
 
                     if (itemJson.has("price")) {
-                        menuItem.setPrice(itemJson.getDouble("price"));
+                        try {
+                            menuItem.setPrice(itemJson.getDouble("price"));
+                        } catch (JSONException e) {
+                            menuItem.setPrice(-1.0);
+                            Log.w(TAG, "Invalid price for item " + menuItem.getId() + ", setting default price -1.0");
+                        }
                     } else {
                         menuItem.setPrice(0.0);
                         Log.w(TAG, "Price missing for item " + menuItem.getId());
